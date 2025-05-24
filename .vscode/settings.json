@@ -1,14 +1,12 @@
 {
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "afterDelay",
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "files.associations": {
         "*.css": "tailwindcss"
     },
-    "cSpell.words": [
-        "roboto"
-    ],
+    "cSpell.words": ["roboto"],
     "[xml]": {
         "editor.defaultFormatter": "redhat.vscode-xml"
-    },
+    }
 }
