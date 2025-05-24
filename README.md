@@ -1,17 +1,14 @@
 # 🚀 Welcome to My Portfolio Website
-
-![Preview Image](image)
-
 🎨 **Take a peek at the design here**  
-(Insert your Figma, screenshot, or live site link here)
+![Portfolio_design](https://github.com/user-attachments/assets/bcf828ac-ec7a-44c3-b2ac-dfc3c1e523cc)
 
 ---
 
 ## 📌 A Note on Forking This Project
 
-I've had several developers reach out, asking if they can reuse or adapt this project for their own portfolios. The short answer is: **yes, feel free to use it** — just kindly give credit.
+**yes, feel free to use it** — just kindly give credit.
 
-This project is open source because I believe in sharing and learning together. That said, it’s disheartening to come across copies that don’t acknowledge the work that went into designing and developing this site. I’ve put serious time and effort into crafting this version, and I ask that you respect that by not presenting it as your own original creation.
+This project is open source because I believe in sharing and learning together. That said, it’s disheartening to come across copies that don’t acknowledge the work that went into designing and developing this site.
 
 Please be aware that this wasn't built to be a template or starter kit, so if you're looking to dive into the code, I recommend checking out the official [Next.js documentation](https://nextjs.org/docs) for help with implementation.
 
