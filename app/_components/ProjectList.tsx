@@ -102,7 +102,6 @@ const ProjectList = () => {
 
         setSelectedProject(slug);
     };
-
     return (
         <section className="pb-section" id="selected-projects">
             <div className="container">

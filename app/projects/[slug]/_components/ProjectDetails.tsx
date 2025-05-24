@@ -109,7 +109,7 @@ const ProjectDetails = ({ project }: Props) => {
                             </h1>
 
                             <div className="fade-in-later opacity-0 flex gap-2">
-                                {project.sourceCode && (
+                                {/* {project.sourceCode && (
                                     <a
                                         href={project.sourceCode}
                                         target="_blank"
@@ -118,7 +118,7 @@ const ProjectDetails = ({ project }: Props) => {
                                     >
                                         <Github size={30} />
                                     </a>
-                                )}
+                                )}  */}
                                 {project.liveUrl && (
                                     <a
                                         href={project.liveUrl}
