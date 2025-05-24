@@ -22,6 +22,14 @@ export const SOCIAL_LINKS = [
 export const MY_STACK = {
     frontend: [
         {
+            name: 'HTML',
+            icon: '/logo/html.png',
+        },
+        {
+            name: 'CSS',
+            icon: '/logo/css.png',
+        },
+        {
             name: 'Javascript',
             icon: '/logo/js.png',
         },
@@ -73,20 +81,38 @@ export const MY_STACK = {
         },
     ],
     database: [
-        {
-            name: 'MySQL',
-            icon: '/logo/mysql.svg',
-        },
+        // {
+        //     name: 'MySQL',
+        //     icon: '/logo/mysql.svg',
+        // },
 
         {
             name: 'MongoDB',
             icon: '/logo/mongodb.svg',
         },
     ],
+    blockchain: [
+        {
+            name: 'Web3.js',
+            icon: '/logo/web3.0.png',
+        },
+        {
+            name: 'Ether.js',
+            icon: '/logo/ethereum.png',
+        },
+        {
+            name: 'Smart contract',
+            icon: '/logo/smart-contracts.png',
+        },
+    ],
     tools: [
         {
             name: 'Git',
             icon: '/logo/git.png',
+        },
+        {
+            name: 'Github',
+            icon: '/logo/github.png',
         },
         {
             name: 'Docker',
