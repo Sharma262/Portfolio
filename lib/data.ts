@@ -13,8 +13,10 @@ export const GENERAL_INFO = {
 export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/Sharma262' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/rakesh262/' },
-    { name: 'facebook', url: 'https://www.facebook.com/tajmirul.2000' },
-    { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
+    {
+        name: 'Hacker Rank',
+        url: 'https://www.hackerrank.com/profile/skrakesh2602',
+    },
 ];
 
 export const MY_STACK = {
