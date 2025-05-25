@@ -6,7 +6,7 @@ import { IProject } from '@/types';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
-import { ArrowLeft, ExternalLink, Github } from 'lucide-react';
+import { ArrowLeft, ExternalLink } from 'lucide-react';
 import { useRef } from 'react';
 
 interface Props {

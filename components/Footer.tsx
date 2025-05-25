@@ -1,10 +1,5 @@
 import { GENERAL_INFO } from '@/lib/data';
 
-interface RepoStats {
-    stargazers_count: number;
-    forks_count: number;
-}
-
 const Footer = async () => {
     return (
         <footer className="text-center pb-5" id="contact">
