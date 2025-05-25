@@ -133,7 +133,6 @@ export const PROJECTS: IProject[] = [
             '/projects/images/devLinks-2.png',
             '/projects/images/devLinks-3.png',
         ],
-        sourceCode: 'https://github.com/Tajmirul/devsLink',
         liveUrl: 'https://devlinks-demo.vercel.app/auth/signin',
         year: 2025,
         description: `One of the most challenging projects in Frontend Mentor.<br/><br/>
@@ -152,7 +151,6 @@ export const PROJECTS: IProject[] = [
             '/projects/images/Task_manager2.png',
             '/projects/images/Task_manager3.png',
         ],
-        // sourceCode: 'https://github.com/Tajmirul/devsLink',
         liveUrl: 'https://itasks.vercel.app/',
         year: 2025,
         description: `Improve your productivity with a sleek UI.<br/><br/>
@@ -166,12 +164,7 @@ export const PROJECTS: IProject[] = [
         techStack: ['HTML', 'CSS', 'Javascript'],
         thumbnail: '/projects/thumbnail/snake_mania.jpg',
         longThumbnail: '/projects/long/snake_mania.jpg',
-        images: [
-            '/projects/images/snake_mania.png',
-            // '/projects/images/snake_mania.png',
-            // '/projects/images/snake_mania.png',
-        ],
-        // sourceCode: 'https://github.com/Tajmirul/devsLink',
+        images: ['/projects/images/snake_mania.png'],
         liveUrl: 'https://snake-mania-plum.vercel.app/',
         year: 2023,
         description: `This is a fun snake game that we used to play in keypad phone in our childhood..<br/><br/>
