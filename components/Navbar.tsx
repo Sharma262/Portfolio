@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { MoveUpRight } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { GENERAL_INFO, SOCIAL_LINKS } from '@/lib/data';
+import Button from './Button';
 
 const COLORS = [
     'bg-yellow-500 text-black',
@@ -147,9 +148,14 @@ const Navbar = () => {
                 </div>
 
                 <div className="w-full max-w-[300px] mx-8 sm:mx-auto">
-                    <p className="text-muted-foreground mb-4">GET IN TOUCH</p>
-                    <a href={`mailto:${GENERAL_INFO.email}`}>
-                        {GENERAL_INFO.email}
+                    <p className="text-muted-foreground mb-4">Here's my CV</p>
+                    <a
+                        href="/CV/Rakesh_resume_2025.pdf"
+                        download
+                        className="group h-12 px-8 inline-flex justify-center items-center gap-2 text-lg uppercase font-anton tracking-widest outline-none transition-colors relative overflow-hidden bg-primary text-primary-foreground hover:bg-primary-hover mt-9 banner-button slide-up-and-fade"
+                    >
+                        <span className="absolute top-[200%] left-0 right-0 h-full bg-white rounded-[50%] group-hover:top-0 transition-all duration-500 scale-150"></span>
+                        <span className="z-[1]">Download CV</span>
                     </a>
                 </div>
             </div>
