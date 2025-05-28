@@ -32,7 +32,7 @@ Follow these steps to set up and run the project locally:
    Open your terminal and run:
 
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/Sharma262/Portfolio.git
 
     cd your-repo-name
 
