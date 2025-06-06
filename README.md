@@ -14,6 +14,7 @@ Please be aware that this wasn't built to be a template or starter kit, so if yo
 
 If you find this useful or inspiring, please consider giving the project a ⭐.
 
+
 ---
 
 ## ✅ TL;DR
