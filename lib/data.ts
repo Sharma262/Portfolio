@@ -6,7 +6,6 @@ export const GENERAL_INFO = {
     emailSubject: "Let's collaborate on a project",
     emailBody: 'Hi Rakesh, I am reaching out to you because...',
 
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
     linkedInProfile: 'https://www.linkedin.com/in/rakesh262',
 };
 
@@ -129,9 +128,9 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/devLinks.jpg',
         longThumbnail: '/projects/long/devLinks.jpg',
         images: [
-            '/projects/images/devLinks-1.png',
-            '/projects/images/devLinks-2.png',
-            '/projects/images/devLinks-3.png',
+            '/projects/images/devlinks-1.png',
+            '/projects/images/devlinks-2.png',
+            '/projects/images/devlinks-3.png',
         ],
         liveUrl: 'https://devlinks-demo.vercel.app/auth/signin',
         year: 2025,
@@ -165,11 +164,11 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/snake_mania.jpg',
         longThumbnail: '/projects/long/snake_mania.jpg',
         images: ['/projects/images/snake_mania.png'],
-        liveUrl: 'https://snake-mania-plum.vercel.app/',
+        sourceCode: 'https://github.com/Sharma262/Snake_mania.git',
         year: 2023,
-        description: `This is a fun snake game that we used to play in keypad phone in our childhood..<br/><br/>
-
-        Welcome to Snake Mania — a modern twist on the classic snake game built with HTML, CSS, and JavaScript. Whether you're here to relive nostalgic memories or sharpen your coding skills, this project is a great starting point for fun and creativity.`,
+        description: `Relive your childhood with this nostalgic Snake Game, crafted with modern HTML, CSS, and JavaScript.
+        Featuring immersive music, sound effects, high score tracking, and a stunning UI that keeps you hooked.
+        It’s not just a game—it’s a trip down memory lane with a fresh, addictive twist!`,
         role: ``,
     },
 ];

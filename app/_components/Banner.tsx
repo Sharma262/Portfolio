@@ -1,7 +1,6 @@
 'use client';
 import ArrowAnimation from '@/components/ArrowAnimation';
 import Button from '@/components/Button';
-import { GENERAL_INFO } from '@/lib/data';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
@@ -55,14 +54,15 @@ const Banner = () => {
                         responsive web solutions.
                     </p>
                     <Button
-                        as="link"
+                        as="a"
+                        href="/CV/Rakesh_resume_2025.pdf"
+                        download
                         target="_blank"
                         rel="noopener noreferrer"
-                        href={GENERAL_INFO.linkedInProfile}
                         variant="primary"
                         className="mt-9 banner-button slide-up-and-fade"
                     >
-                        Contact Me
+                        Download CV
                     </Button>
                 </div>
 
