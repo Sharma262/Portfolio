@@ -167,9 +167,9 @@ export const PROJECTS: IProject[] = [
         images: ['/projects/images/snake_mania.png'],
         sourceCode: 'https://github.com/Sharma262/Snake_mania.git',
         year: 2023,
-        description: `This is a fun snake game that we used to play in keypad phone in our childhood..<br/><br/>
-
-        Welcome to Snake Mania — a modern twist on the classic snake game built with HTML, CSS, and JavaScript. Whether you're here to relive nostalgic memories or sharpen your coding skills, this project is a great starting point for fun and creativity.`,
+        description: `Relive your childhood with this nostalgic Snake Game, crafted with modern HTML, CSS, and JavaScript.
+        Featuring immersive music, sound effects, high score tracking, and a stunning UI that keeps you hooked.
+        It’s not just a game—it’s a trip down memory lane with a fresh, addictive twist!`,
         role: ``,
     },
 ];

@@ -55,14 +55,15 @@ const Banner = () => {
                         responsive web solutions.
                     </p>
                     <Button
-                        as="link"
+                        as="a"
+                        href="/CV/Rakesh_resume_2025.pdf"
+                        download
                         target="_blank"
                         rel="noopener noreferrer"
-                        href={GENERAL_INFO.linkedInProfile}
                         variant="primary"
                         className="mt-9 banner-button slide-up-and-fade"
                     >
-                        Contact Me
+                        Download CV
                     </Button>
                 </div>
 

@@ -32,7 +32,7 @@ const Child = ({ icon }: any) => (
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
 type Props = {
-    as?: 'link' | 'button';
+    as?: 'link' | 'button' | 'a';
     loading?: boolean;
     icon?: boolean;
     children: ReactNode | ReactNode[];
@@ -116,6 +116,26 @@ const Button = ({
                     {loading ? <Child icon={icon} /> : children}
                 </span>
             </button>
+        );
+    } else if (as === 'a') {
+        const props = rest as React.AnchorHTMLAttributes<HTMLAnchorElement>;
+
+        return (
+            <a
+                className={buttonClasses}
+                {...props}
+                href={props.href || '#'}
+                download={props.download}
+                target={props.target}
+                rel={props.rel}
+            >
+                {variant !== 'link' && (
+                    <span className="absolute top-[200%] left-0 right-0 h-full bg-white rounded-[50%] group-hover:top-0 transition-all duration-500 scale-150" />
+                )}
+                <span className="z-[1]">
+                    {loading ? <Child icon={icon} /> : children}
+                </span>
+            </a>
         );
     }
 };
