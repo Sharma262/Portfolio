@@ -129,9 +129,9 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/devLinks.jpg',
         longThumbnail: '/projects/long/devLinks.jpg',
         images: [
-            '/projects/images/devLinks-1.png',
-            '/projects/images/devLinks-2.png',
-            '/projects/images/devLinks-3.png',
+            '/projects/images/devlinks-1.png',
+            '/projects/images/devlinks-2.png',
+            '/projects/images/devlinks-3.png',
         ],
         liveUrl: 'https://devlinks-demo.vercel.app/auth/signin',
         year: 2025,
@@ -165,7 +165,7 @@ export const PROJECTS: IProject[] = [
         thumbnail: '/projects/thumbnail/snake_mania.jpg',
         longThumbnail: '/projects/long/snake_mania.jpg',
         images: ['/projects/images/snake_mania.png'],
-        liveUrl: 'https://snake-mania-plum.vercel.app/',
+        sourceCode: 'https://github.com/Sharma262/Snake_mania.git',
         year: 2023,
         description: `This is a fun snake game that we used to play in keypad phone in our childhood..<br/><br/>
 
