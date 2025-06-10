@@ -6,7 +6,6 @@ export const GENERAL_INFO = {
     emailSubject: "Let's collaborate on a project",
     emailBody: 'Hi Rakesh, I am reaching out to you because...',
 
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
     linkedInProfile: 'https://www.linkedin.com/in/rakesh262',
 };
 
