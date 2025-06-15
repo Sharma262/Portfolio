@@ -125,8 +125,8 @@ export const PROJECTS: IProject[] = [
         title: 'devLinks',
         slug: 'devLinks',
         techStack: ['Next.js', 'Formik', 'Drag & Drop', 'Tailwind CSS'],
-        thumbnail: '/projects/thumbnail/devLinks.jpg',
-        longThumbnail: '/projects/long/devLinks.jpg',
+        thumbnail: '/projects/thumbnail/devLinks.png',
+        longThumbnail: '/projects/long/devLinks.png',
         images: [
             '/projects/images/devlinks-1.png',
             '/projects/images/devlinks-2.png',
