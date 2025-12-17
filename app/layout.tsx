@@ -67,7 +67,7 @@ export default function RootLayout({
                         className="px-4 block bg-black text-center z-[1] text-sm py-2 hover:text-primary transition-all"
                     >
                         Frontend dev? I&apos;ll help you polish your resume —
-                        Click here.
+                        Click free.
                     </a>
                     <Navbar />
                     <main>{children}</main>
